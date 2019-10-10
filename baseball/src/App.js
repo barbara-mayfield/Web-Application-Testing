@@ -7,8 +7,6 @@ function App() {
   const [ballCount, setBallCount] = useState(0);
   const [strike, setStrike] = useState(0);
   
-
-
   return (
     <div className="App">
       <Display 

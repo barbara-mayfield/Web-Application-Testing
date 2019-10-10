@@ -7,14 +7,12 @@ import React from 'react';
 // on the `Dashboard` component
 
 
-export default function Display(props) {
-
-const {ballCount, strikes} = props;
+export default function Display({ ballCount, strike }) {
 
 return (
     <div className="score">
         <div className="balls">Balls: {ballCount}</div>
-        <div className="strikes">Strikes: {strikes}</div>
+        <div className="strikes">Strikes: {strike}</div>
     </div>
 )
 }
